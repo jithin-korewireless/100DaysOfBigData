@@ -1,0 +1,52 @@
+--------------------------------------------------------------------------------------------------------------------
+{Day 0}
+
+Environment SetUp
+
+Versions
+java 1.8.0_191
+Apache Spark - 2.1.1
+Scala - 2.11.11
+Cassandra - 3.0.17
+IntelliJ IDEA 2018.3.3 (Community Edition)
+DevCenter Datastax 1.5.0
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+{Day 1}
+
+
+
+
+(1) Word Count program in spark scala,using Intellij IDE
+
+Used dependencies - spark-core_2.11,spark-sql_2.11
+
+Set Logger level to error to avoid unnecessary info messages on console
+Created a saprkSession followed by sparkcontext
+Read data from List and used SparkContext.Parallelize to create rdd,
+Count using map and CountByValue
+printed result into Console using print()
+
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+{Day 2}
+
+(2) Create a Table in Cassandra using Datastax and insert values into it
+
+create,insert,select operations
+
+(3) Connect cassandra with spark and show table details in spark console
+
+Used Dependencies - spark-cassandra-connector-unshaded_2.11,cassandra-driver-core,commons-codec
+
+Create rdd using SparkContext.cassandraTable
+
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+{Day 3}
+
+--------------------------------------------------------------------------------------------------------------------
